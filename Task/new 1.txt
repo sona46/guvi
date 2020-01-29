@@ -1,0 +1,17 @@
+a=int(input("Enter the First Number:"))
+b=int(input("Enter the Second Number:"))
+add=a+b
+print(add)
+answer = None
+while answer not in ("y", "n"):
+    answer = input("Enter y/n: ")
+    if answer == "y":
+      a=int(input("Enter the First Number:"))
+      b=int(input("Enter the Second Number:"))
+      add=a+b
+      print(add)
+         
+    elif answer == "n":
+         exit
+    else:
+    	print("Please enter y/n:")
